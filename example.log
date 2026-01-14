@@ -1,0 +1,255 @@
+# PySCF calculation for alpha = 0.0...
+converged SCF energy = -15.7231731289034
+<class 'pyscf.scf.hf.RHF'> wavefunction is stable in the internal stability analysis
+Importing PySCF objects completed.
+
+>> >> Fanpy
+Number of Electrons: 6
+Number of Spin Orbitals: 14
+Nuclear-nuclear repulsion: 3.346456692913385
+# Fanpy calculation for alpha = 0.0...
+Wavefunction: CISD
+Number of parameters: 469
+Hamiltonian: RestrictedMolecularHamiltonian
+Projection space (orders of excitations):  [1, 2, 3, 4, 5, 6]
+Number of projections: 1225
+
+# New interface!
+Importing Fanpy ProjectedSchrodinger object...
+Solving FanPT problem using the ideal Hamiltonian
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 0.9999488724194902
+(Mid Optimization) Electronic Energy: -19.069629821816832
+(Mid Optimization) Cost: 363.63195589578083
+(Mid Optimization) Cost from constraints: 2.6140294887908418e-09
+(Mid Optimization) Norm of the Jacobian: 100.54011818775618
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         1.8182e+02                                    3.64e+02    
+(Mid Optimization) Norm of wavefunction: 1.0029329483027554
+(Mid Optimization) Electronic Energy: 0.026193829622215503
+(Mid Optimization) Cost: 0.09144518448308317
+(Mid Optimization) Cost from constraints: 8.602185746635588e-06
+(Mid Optimization) Norm of the Jacobian: 263.3247077632437
+       1              2         4.5727e-02      1.82e+02       1.91e+01       2.20e+00    
+(Mid Optimization) Norm of wavefunction: 1.0002660266551726
+(Mid Optimization) Electronic Energy: 3.138873997349939e-05
+(Mid Optimization) Cost: 1.8208049996389034e-07
+(Mid Optimization) Cost from constraints: 7.077018126232842e-08
+(Mid Optimization) Norm of the Jacobian: 262.976160904566
+       2              3         1.2643e-07      4.57e-02       3.82e+01       3.05e-03    
+(Mid Optimization) Norm of wavefunction: 1.000000022721757
+(Mid Optimization) Electronic Energy: 4.174020779430495e-09
+(Mid Optimization) Cost: 1.9034544912793337e-17
+(Mid Optimization) Cost from constraints: 5.162782375505886e-16
+(Mid Optimization) Norm of the Jacobian: 262.97574033102757
+       3              4         2.6766e-16      1.26e-07       7.64e+01       4.54e-08    
+(Mid Optimization) Norm of wavefunction: 1.00000000002623
+(Mid Optimization) Electronic Energy: 5.1427871756282616e-14
+(Mid Optimization) Cost: 1.5379993741754549e-21
+(Mid Optimization) Cost from constraints: 6.8800802832064e-22
+(Mid Optimization) Norm of the Jacobian: 262.97574027521426
+       4              5         1.1130e-21      2.68e-16       1.53e+02       5.25e-11    
+`gtol` termination condition is satisfied.
+Function evaluations 5, initial cost 1.8182e+02, final cost 1.1130e-21, first-order optimality 5.25e-11.
+(Mid Optimization) Norm of the Jacobian: 262.9738389522747
+Solving FanPT problem at lambda=0.1
+Frobenius Norm of parameters: 0.0011643687448904822
+Energy change: 2.2301740660734684e-05
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 1.0000013552834386
+(Mid Optimization) Electronic Energy: 2.2301740712162557e-05
+(Mid Optimization) Cost: 3.9810383741814697e-08
+(Mid Optimization) Cost from constraints: 1.8367931989071087e-12
+(Mid Optimization) Norm of the Jacobian: 262.97623688179243
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         1.9906e-08                                    2.76e-06    
+(Mid Optimization) Norm of wavefunction: 0.9999999803110339
+(Mid Optimization) Electronic Energy: 2.230593570660721e-05
+(Mid Optimization) Cost: 3.9810207492637274e-08
+(Mid Optimization) Cost from constraints: 3.876553870376442e-16
+(Mid Optimization) Norm of the Jacobian: 262.97623692459877
+       1              2         1.9905e-08      1.01e-12       1.81e+02       4.32e-10    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 1.9906e-08, final cost 1.9905e-08, first-order optimality 4.32e-10.
+(Mid Optimization) Norm of the Jacobian: 262.97433560528754
+Solving FanPT problem at lambda=0.2
+Frobenius Norm of parameters: 0.0011656520131031998
+Energy change: 6.686138047014944e-05
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 1.000001314086716
+(Mid Optimization) Electronic Energy: 8.916731617675665e-05
+(Mid Optimization) Cost: 1.667176909302571e-07
+(Mid Optimization) Cost from constraints: 1.7268238974535454e-12
+(Mid Optimization) Norm of the Jacobian: 262.97772613109026
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         8.3360e-08                                    2.79e-06    
+(Mid Optimization) Norm of wavefunction: 0.9999999166418718
+(Mid Optimization) Electronic Energy: 8.918434251313045e-05
+(Mid Optimization) Cost: 1.6671733294137369e-07
+(Mid Optimization) Cost from constraints: 6.948577533312379e-15
+(Mid Optimization) Norm of the Jacobian: 262.97772634459693
+       1              2         8.3359e-08      1.04e-12       2.40e+02       6.69e-11    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 8.3360e-08, final cost 8.3359e-08, first-order optimality 6.69e-11.
+(Mid Optimization) Norm of the Jacobian: 262.97582503617525
+Solving FanPT problem at lambda=0.30000000000000004
+Frobenius Norm of parameters: 0.0011687272972555462
+Energy change: 0.00011135262641368961
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 1.0000012246639491
+(Mid Optimization) Electronic Energy: 0.00020053696892682006
+(Mid Optimization) Cost: 4.041966380683747e-07
+(Mid Optimization) Cost from constraints: 1.4998017883226454e-12
+(Mid Optimization) Norm of the Jacobian: 262.9802072300588
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         2.0210e-07                                    3.68e-06    
+(Mid Optimization) Norm of wavefunction: 0.999999797902775
+(Mid Optimization) Electronic Energy: 0.00020057678004434062
+(Mid Optimization) Cost: 4.041956887525994e-07
+(Mid Optimization) Cost from constraints: 4.0843288334516423e-14
+(Mid Optimization) Norm of the Jacobian: 262.98020774677957
+       1              2         2.0210e-07      1.20e-12       3.37e+02       6.43e-11    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 2.0210e-07, final cost 2.0210e-07, first-order optimality 6.43e-11.
+(Mid Optimization) Norm of the Jacobian: 262.97830645652397
+Solving FanPT problem at lambda=0.4
+Frobenius Norm of parameters: 0.0011734804548844044
+Energy change: 0.0001557740021248289
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 1.0000010715961276
+(Mid Optimization) Electronic Energy: 0.0003563507821691695
+(Mid Optimization) Cost: 7.920701686522958e-07
+(Mid Optimization) Cost from constraints: 1.1483182607106212e-12
+(Mid Optimization) Norm of the Jacobian: 262.983679363981
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         3.9604e-07                                    5.47e-06    
+(Mid Optimization) Norm of wavefunction: 0.9999996039666271
+(Mid Optimization) Electronic Energy: 0.0003564256943272574
+(Mid Optimization) Cost: 7.920681084788891e-07
+(Mid Optimization) Cost from constraints: 1.5684243242967056e-13
+(Mid Optimization) Norm of the Jacobian: 262.9836803478554
+       1              2         3.9603e-07      1.53e-12       4.98e+02       7.04e-11    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 3.9604e-07, final cost 3.9603e-07, first-order optimality 7.04e-11.
+(Mid Optimization) Norm of the Jacobian: 262.9817790830745
+Solving FanPT problem at lambda=0.5
+Frobenius Norm of parameters: 0.0011798827063075588
+Energy change: 0.00020012298279927648
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 1.0000008306679675
+(Mid Optimization) Electronic Energy: 0.0005565486771265339
+(Mid Optimization) Cost: 1.3865131218239371e-06
+(Mid Optimization) Cost from constraints: 6.900092722668772e-13
+(Mid Optimization) Norm of the Jacobian: 262.98814170932616
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         6.9326e-07                                    7.52e-06    
+(Mid Optimization) Norm of wavefunction: 0.9999993067460822
+(Mid Optimization) Electronic Energy: 0.00055667441575597
+(Mid Optimization) Cost: 1.3865091309694075e-06
+(Mid Optimization) Cost from constraints: 4.806009945828501e-13
+(Mid Optimization) Norm of the Jacobian: 262.98814336966285
+       1              2         6.9325e-07      2.10e-12       6.85e+02       9.98e-11    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 6.9326e-07, final cost 6.9325e-07, first-order optimality 9.98e-11.
+(Mid Optimization) Norm of the Jacobian: 262.98624213771257
+Solving FanPT problem at lambda=0.6
+Frobenius Norm of parameters: 0.0011878983551815933
+Energy change: 0.00024439599443037833
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 1.0000004697030662
+(Mid Optimization) Electronic Energy: 0.0008010704101863483
+(Mid Optimization) Cost: 2.260055505821572e-06
+(Mid Optimization) Cost from constraints: 2.206209704158082e-13
+(Mid Optimization) Norm of the Jacobian: 262.9935934337303
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         1.1300e-06                                    1.02e-05    
+(Mid Optimization) Norm of wavefunction: 0.9999988699761297
+(Mid Optimization) Electronic Energy: 0.0008012671768378437
+(Mid Optimization) Cost: 2.2600483459803355e-06
+(Mid Optimization) Cost from constraints: 1.2769539473459968e-12
+(Mid Optimization) Norm of the Jacobian: 262.9935960394145
+       1              2         1.1300e-06      3.05e-12       9.62e+02       2.44e-10    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 1.1300e-06, final cost 1.1300e-06, first-order optimality 2.44e-10.
+(Mid Optimization) Norm of the Jacobian: 262.9916948477133
+Solving FanPT problem at lambda=0.7000000000000001
+Frobenius Norm of parameters: 0.001197485261679127
+Energy change: 0.0002885883929938417
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 0.9999999483464238
+(Mid Optimization) Electronic Energy: 0.0010898555698316853
+(Mid Optimization) Cost: 3.5015859768472435e-06
+(Mid Optimization) Cost from constraints: 2.668091933637348e-15
+(Mid Optimization) Norm of the Jacobian: 263.00003369596453
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         1.7508e-06                                    1.33e-05    
+(Mid Optimization) Norm of wavefunction: 0.9999982492123058
+(Mid Optimization) Electronic Energy: 0.0010901491027865769
+(Mid Optimization) Cost: 3.5015738421045555e-06
+(Mid Optimization) Cost from constraints: 3.065257550003565e-12
+(Mid Optimization) Norm of the Jacobian: 263.0000375895816
+       1              2         1.7508e-06      4.54e-12       1.38e+03       2.60e-10    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 1.7508e-06, final cost 1.7508e-06, first-order optimality 2.60e-10.
+(Mid Optimization) Norm of the Jacobian: 262.998136445626
+Solving FanPT problem at lambda=0.8
+Frobenius Norm of parameters: 0.0012085954192565694
+Energy change: 0.00033269447061849526
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 0.9999992180626162
+(Mid Optimization) Electronic Energy: 0.0014228435734050721
+(Mid Optimization) Cost: 5.216355363279079e-06
+(Mid Optimization) Cost from constraints: 6.114260722504034e-13
+(Mid Optimization) Norm of the Jacobian: 263.0074616459033
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         2.6082e-06                                    1.69e-05    
+(Mid Optimization) Norm of wavefunction: 0.9999973918286954
+(Mid Optimization) Electronic Energy: 0.0014232662107326235
+(Mid Optimization) Cost: 5.216335687442467e-06
+(Mid Optimization) Cost from constraints: 6.8025575541215145e-12
+(Mid Optimization) Norm of the Jacobian: 263.00746725789384
+       1              2         2.6082e-06      6.74e-12       2.00e+03       3.98e-10    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 2.6082e-06, final cost 2.6082e-06, first-order optimality 3.98e-10.
+(Mid Optimization) Norm of the Jacobian: 263.00556616927383
+Solving FanPT problem at lambda=0.9
+Frobenius Norm of parameters: 0.0012211756029375928
+Energy change: 0.0003767074528493819
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 0.9999982221337733
+(Mid Optimization) Electronic Energy: 0.0017999736635820054
+(Mid Optimization) Cost: 7.52598015805178e-06
+(Mid Optimization) Cost from constraints: 3.160808319976773e-12
+(Mid Optimization) Norm of the Jacobian: 263.0158764244895
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         3.7630e-06                                    2.08e-05    
+(Mid Optimization) Norm of wavefunction: 0.9999962370160259
+(Mid Optimization) Electronic Energy: 0.0018005654627172845
+(Mid Optimization) Cost: 7.525949363103754e-06
+(Mid Optimization) Cost from constraints: 1.416004838923666e-11
+(Mid Optimization) Norm of the Jacobian: 263.0158842880556
+       1              2         3.7630e-06      9.90e-12       2.81e+03       2.57e-10    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 3.7630e-06, final cost 3.7630e-06, first-order optimality 2.57e-10.
+(Mid Optimization) Norm of the Jacobian: 263.01398326246994
+Solving FanPT problem at lambda=1.0
+Frobenius Norm of parameters: 0.0012351680434292142
+Energy change: 0.00042061944214137896
+Importing Fanpy ProjectedSchrodinger object...
+(Mid Optimization) Norm of wavefunction: 0.999996895657659
+(Mid Optimization) Electronic Energy: 0.0022211849048586634
+(Mid Optimization) Cost: 1.0568445891837658e-05
+(Mid Optimization) Cost from constraints: 9.636941369907467e-12
+(Mid Optimization) Norm of the Jacobian: 263.0252771636999
+   Iteration     Total nfev        Cost      Cost reduction    Step norm     Optimality   
+       0              1         5.2842e-06                                    2.56e-05    
+(Mid Optimization) Norm of wavefunction: 0.9999947157798421
+(Mid Optimization) Electronic Energy: 0.002221994690269349
+(Mid Optimization) Cost: 1.056839905931745e-05
+(Mid Optimization) Cost from constraints: 2.7922982677010966e-11
+(Mid Optimization) Norm of the Jacobian: 263.0252879287517
+       1              2         5.2842e-06      1.43e-11       3.94e+03       7.79e-10    
+`gtol` termination condition is satisfied.
+Function evaluations 2, initial cost 5.2842e-06, final cost 5.2842e-06, first-order optimality 7.79e-10.
+Total execution time: 6.215211868286133 seconds
+### Final energy: 3.3486786876036545

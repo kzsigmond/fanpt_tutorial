@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=CISD_efree_ord_ORDER_steps_STEPS_alpha_ALPHA_BeH2
+#SBATCH --output=fanpy.out
+#SBATCH --error=fanpy.err
+#SBATCH --time=10-00:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16gb
+#SBATCH --account=EXAMPLE_ACCOUNT
+#SBATCH --qos=EXAMPLE_QOS
+
+python input.py
